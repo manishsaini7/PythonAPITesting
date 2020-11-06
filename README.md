@@ -2,29 +2,19 @@
 This Repo is about Automation Testing of Ecommerce Website using Rest APIs with Python. To clone this repo install Local or AMPPS .
 Create WP website and install Woo Commerce plugin. Add Some Sample products to test backend APIs.
 
-Tools Used : PyCharm
-			 Local
-			 MySQL Workbench
+Tools Used : PyCharm, Local, MySQL Workbench
 
 Framework Used : PyTest
 
-Python Packages Used : pytest
-                       PyMySQL
-                       WooCommerce
-                       pytest
-                       pytest-html
-                       requests
-                       requests-oathlib
+Python Packages Used : pytest, PyMySQL, WooCommerce, pytest-html, requests, requests-oathlib
                        
-Web Server Used : Local   
-                  https://localwp.com/
+Web Server Used : Local (https://localwp.com/)
                   
 Database Used : MySQL
 
 Website : WordPress Website with Woo Commerce Plugin
 
-API Used : Woo Commerce REST APIs
-           https://woocommerce.github.io/woocommerce-rest-api-docs
+API Used : Woo Commerce REST APIs (https://woocommerce.github.io/woocommerce-rest-api-docs)
            
 Test cases covered :
 # Customers
