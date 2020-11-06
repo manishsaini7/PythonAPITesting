@@ -1,0 +1,8 @@
+setup.py
+MyStoreAPITest/__init__.py
+MyStoreAPITest.egg-info/PKG-INFO
+MyStoreAPITest.egg-info/SOURCES.txt
+MyStoreAPITest.egg-info/dependency_links.txt
+MyStoreAPITest.egg-info/top_level.txt
+MyStoreAPITest/Src/__init__.py
+MyStoreAPITest/Tests/__init__.py
