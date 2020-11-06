@@ -1,7 +1,8 @@
 # API Testing of Ecommerce Website using Python
- This Repo is about Automation Testing of Ecommerce Website using Rest APIs with Python
+This Repo is about Automation Testing of Ecommerce Website using Rest APIs with Python
 
 Framework Used : PyTest
+
 Python Packages Used : pytest
                        PyMySQL
                        WooCommerce
@@ -10,13 +11,12 @@ Python Packages Used : pytest
                        requests
                        requests-oathlib
                        
-
 Web Server Used : Local   
                   https://localwp.com/
                   
 Database Used : MySQL
 
-Website : WordPress Web site with Woo Commerce Plugin
+Website : WordPress Website with Woo Commerce Plugin
 
 API Used : Woo Commerce REST APIs
            https://woocommerce.github.io/woocommerce-rest-api-docs
