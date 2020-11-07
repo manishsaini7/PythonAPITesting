@@ -1,6 +1,5 @@
 import pytest
 from datetime import datetime , timedelta
-import pdb
 from MyStoreAPITest.Src.helpers.products_helper import productsHelper
 from MyStoreAPITest.Src.dao.products_dao import ProductsDAO
 @pytest.mark.regression
@@ -22,7 +21,6 @@ class TestListProductsWithFilter(object):
         assert rs_api, f"Empty response for list products with filter"
 
         #get data from db
-
         db_products = ProductsDAO().get_products_created_after_given_date(after_created_date)
 
         #verify response

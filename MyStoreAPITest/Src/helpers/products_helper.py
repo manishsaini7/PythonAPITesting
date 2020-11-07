@@ -12,3 +12,6 @@ class productsHelper(object):
 
     def call_list_products(self, payload = None) :
         return self.request_helper.get('products', payload=payload)
+
+    def call_update_regular_price(self, product_id, payload):
+        return self.request_helper.put(f"products/{product_id}",payload=payload)

@@ -24,3 +24,7 @@ class ProductsDAO(object):
 
         sql = f'Select * From local.wp_posts WHERE post_type = "product" AND post_date > "{_date}" Limit 5000;'
         return self.db_helper.execute_select(sql)
+
+    def get_product_regular_price_by_id(self, product_id):
+        sql = f'SELECT * FROM local.wp_postmeta where post_id = {product_id} and meta_key = "_regular_price";'
+        return self.db_helper.execute_select(sql)
